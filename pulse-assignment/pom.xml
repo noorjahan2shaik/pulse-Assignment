@@ -51,6 +51,25 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+    <groupId>org.jsoup</groupId>
+    <artifactId>jsoup</artifactId>
+    <version>1.16.1</version>
+</dependency>
+<!-- Selenium -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.15.0</version>
+</dependency>
+
+<!-- WebDriver Manager to auto-manage drivers -->
+<dependency>
+    <groupId>io.github.bonigarcia</groupId>
+    <artifactId>webdrivermanager</artifactId>
+    <version>5.5.0</version>
+</dependency>
+
 	</dependencies>
 
 	<build>
